@@ -4,6 +4,8 @@
 
 [Effective Java](https://github.com/sky7th/effective-java)
 
+[Clean Code](./book-summary/Clean%20Code/index.md)
+
 [자바 ORM 표준 JPA 프로그래밍](https://github.com/sky7th/spring-data-jpa-shop)
 
 [마이크로서비스 아키텍처 구축](./book-summary/마이크로서비스%20아키텍처%20구축/index.md)
