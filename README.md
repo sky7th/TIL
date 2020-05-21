@@ -10,6 +10,8 @@
 
 [마이크로서비스 아키텍처 구축](./book-summary/마이크로서비스%20아키텍처%20구축/index.md)
 
+[도메인 주도 설계 핵심](./book-summary/도메인%20주도%20설계%20핵심/index.md)
+
 ## 개발 관련 &#9997;
 
 [디자인 패턴](https://github.com/sky7th/design-pattern)
