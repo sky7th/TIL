@@ -14,6 +14,8 @@
 
 ## 개발 관련 &#9997;
 
+[데이터 베이스](./dev-summary/DB/index.md)
+
 [디자인 패턴](https://github.com/sky7th/design-pattern)
 
 [Domain-Driven-Design](https://github.com/sky7th/domain-driven-design)
