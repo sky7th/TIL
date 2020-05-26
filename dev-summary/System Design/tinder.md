@@ -44,3 +44,6 @@ The server has a validation engine called the matcher micro service, which notes
 ### City wise partitioning on the user data.
 - This is acheived using NoSQL databases like Cassandra or Amazon Dynamo. 
 - Using sharding.
+
+## References
+- [https://www.youtube.com/watch?v=tndzLznxq40&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&index=9](https://www.youtube.com/watch?v=tndzLznxq40&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&index=9)
