@@ -1,3 +1,9 @@
+#### 주소창에 URL을 입력하면 생기는 일들
+- https://goldfishhead.tistory.com/23?category=845336
+
+#### 브라우저는 어떻게 동작하는가 ?
+- https://d2.naver.com/helloworld/59361
+
 ### GET과 POST 방식
 
 -   GET
@@ -62,34 +68,19 @@ MVC(Model – View – Controller)는 소프트웨어 공학에서 어플리케�
 -   View : 화면에 표시되는 부분이다. 추출한 데이터나 일반적인 텍스트 데이터를 표시하거나 입력 폼 또는 사용자와의 상호작용을 위한 인터페이스를 표시하는 영역이다.
 -   Controller : 어플리케이션에서 각 요소들의 연결 관계를 설정하고 데이터와 시각적인 부분의 연결 등을 관리한다. 대개 URL로부터 입력되는 정보로부터 어떤 데이터와 뷰를 연결할 지 등을 제어한다.
 
-### Servlet
-
--   Servlet
-    -   Servlet은 웹에서 Java 프로그래밍을 구현하기 위해서 탄생했다. (웹 개발을 위해 만든 표준)
-    -   Java로 구현된 CGI(Common Gatway Interface)라고 말한다.
-    -   HTTP Protocal 서비스를 지원하는 javax.servlet.http.HttpServlet 클래스를 상속하여 개발하며, Servlet은 Container에 의해서 실행되고 관리된다.
-    -   HTML 변경 시 Servlet을 재컴파일 해야하는 단점이 있다. (코드 수정 -> 컴파일 -> 클래스 파일)
--   Servlet Container
-    -   HTTP 요청을 받아서 Servlet을 실행시키고, 그 결과를 사용자 브라우저에게 전달해주는 기능을 제공하는 컴포넌트이다.
-    -   Servlet을 실행하고, 생명주기를 관리하는 역할을 한다.
-    -   Servlet과 웹 서버(Apache, ngin 등)가 서버 통신을 할 수 있는 방법을 제공한다.
-    -   멀티쓰레드를 지원하여 클라이언트의 다중 요청을 자동적으로 처리해준다.
-    -   대표적인 Container에는 Tomcat, JBoss 등이 있다.
-
-### Servlet 실행 순서
-
-1.  사용자가 URL을 클릭하면 HTTP Request를 Servlet Container에 보낸다.
-2.  Servlet Container는 HttpServletRequest, HttpServletResponse 두 객체를 생성한다.
-3.  사용자가 요청한 URL을 분석하여 어느 서블릿에 대한 요청인지 찾는다. (DD를 참조하여 분석)
-4.  컨테이너는 서블릿 service() 메소드를 호출하며, POST, GET여부에 따라 doGet() 또는 doPost()가 호출된다.
-5.  doGet() or doPost() 메소드는 동적인 페이지를 생성한 후 HttpServletResponse 객체에 응답을 보낸다.
-6.  응답이 완료되면 HttpServletRequest, HttpServletResponse 두 객체를 소멸시킨다.
-
-\*DD (배포서술자, Deployment Descriptor) = web.xml
-
-### JSP
-
--   JSP(JavaServer Pages)는 자바 언어를 기반으로 하는 스크립트 언어로서 자바가 제공하는 기능을 그대로 사용할 수 있다. 또한 ASP, PHP처럼 스크립트 기반으로 개발되어 서버 페이지를 휠씬 쉽게 작성할 수 있으며 서블릿과 함께 구동함으로써 서블릿의 기능을 그대로 사용할 수 있으며, 자바빈즈(JavaBeans), EJB같은 기술로 보다 강력한 객체 지향적 지원이 가능하게 되었다. 또한 JSTL을 지원하게 되면서 웹 프로그램의 가독성이 좋아지고 유지 및 보수가 휠씬 쉬워지는 장점이 있다.
-
 #### Apache Nginx 차이점
 - https://goldfishhead.tistory.com/24
+
+#### SPA(Single Page Application)로 구성된 페이지에서 SEO(Search Engine Optimization)를 할 수 있는 방법은 무엇일까?
+- 리액트 같은 프레임워크로 SPA를 구성하고 next.js와 같이 SSR을 할 수 있는 프레임워크를 사용해서 SEO를 할 수 있습니다.
+
+#### SSR(Server Side Rendering)은 무엇이고 사용 목적은 무엇인가?
+- 서버에서 모든 리소스들을 렌더링해서 클라이언트로 보내주어 화면에 표시하는 방식.
+- 사용 목적
+  - 클라이언트를 가볍게 하기 위해.
+  - 검색엔진 최적화를 적용하기 위해.
+  - 인터렉션이 빠르게 적용되지 않더라도 페이지 화면을 빠르게 표시하기 위해.
+  - 클라이언트 사이드 렌더링은 보안에 취약하기 때문에 보안에 좀 더 신경을 쓰고 싶다면 서버 사이드 렌더링을 사용하는 것이 좋다.
+
+#### CORS에 대해 설명할 수 있나?
+- CORS는 동일 출처 정책으로 인해 다른 프로토콜 혹은 다른 도메인 / 다른 포트 번호로 요청이 들어왔을 시 응답하지 못하는 상황을 대처하기 위해 생긴 정책으로, cross origin 요청에 대해 응답을 보낼 수 있는 방법을 정한 표준이다.
