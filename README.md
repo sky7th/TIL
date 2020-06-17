@@ -14,6 +14,8 @@
 
 - [자바스크립트 코딩의 기술](./book-summary/자바스크립트%20코딩의%20기술/index.md)
 
+- [자바스크립트 패턴과 테스트](./book-summary/자바스크립트%20패턴과%20테스트/index.md)
+
 ## 개발 관련 &#9997;
 
 - [데이터 베이스](./dev-summary/DB/index.md)
