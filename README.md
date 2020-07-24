@@ -18,6 +18,7 @@
 - [System Design](./dev-summary/System%20Design/index.md)
 - [React](./dev-summary/react/index.md)
 - [Spring Boot](./dev-summary/spring%20boot/index.md)
+- [우아한 테크코스 테코톡 - 개발 관련 개념 정리](./dev-summary/우아한%20테크/index.md)
 
 ## 개발자 면접 준비 💻
 |취|뽀|🔨|하|자 |
